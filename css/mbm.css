@@ -1,0 +1,25 @@
+#splash-banner {
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.radius {
+  border-radius: 50%;
+  width: 260px;
+}
+
+.text-white {
+  color: #fff;
+}
+
+ul.list li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 10px;
+}
+ul.list li a i {
+  color: #fff;
+}
+
+/*# sourceMappingURL=mbm.css.map */
