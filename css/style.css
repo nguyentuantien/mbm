@@ -1,4 +1,12 @@
 
+@font-face {
+    font-family: UniSansThin;
+    src: url(https://stream.cione.vn/font/UniSansThin.otf);
+}
+@font-face {
+    font-family: UniSansHeavy;
+    src: url(https://stream.cione.vn/font/UniSansHeavy.otf);
+}
 .panel p{
     text-align: left;
     margin-top: -2px;
@@ -6,19 +14,23 @@
 
 *{
     box-sizing: border-box;
-font-family: 'Nunito', sans-serif;
+    font-family: 'UniSansHeavy', sans-serif;
 }
 p{
-    line-height: 21pt;
+    font-family: 'UniSansThin', sans-serif;
+    line-height: 24pt;
 }
 body {
     line-height: 28px;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 300;
     background-color:  #f4f4f4;
 }
 .hidden{
     display: none;
+}
+.link:hover{
+    color: #0c80b6;
 }
 .bocongthuong{
     width:160px;
@@ -59,6 +71,9 @@ ul.list-footer li a:hover{
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need----------------------------------------------------------------------------------
  */
+.remove-margin-top{
+    margin-top: 0;
+}
 .l-box {
     padding: 1em;
 }
@@ -86,6 +101,9 @@ ul.list-footer li a:hover{
 }
 .padding-top-6{
     padding-top:6em;
+}
+.menu-register{
+        text-align: left;
 }
 /* Mobile first queries */
 /* -------------------Menu--------------------------------------- */
@@ -328,6 +346,11 @@ ul.pure-menu-list li.pure-menu-item ul.pure-menu-children li.menu-sub ul li a{
 ul.pure-menu-list li.pure-menu-item ul.pure-menu-children li.menu-sub ul li a{
         color: #fff;
 }
+
+ .content.splash-content {
+        padding-top: 7em;
+    }
+
 /* -----------------------------------------Larger than mobile -----------------------------------------*/
 @media (min-width: 400px) {
     img.pure-img-responsive.logo-footer {
@@ -344,7 +367,9 @@ ul.pure-menu-list li.pure-menu-item ul.pure-menu-children li.menu-sub ul li a{
   
 }
 @media (min-width: 751px) {
-   
+    .content.splash-content {
+        padding-top: 12em;
+    }
 }
 @media (min-width: 770px) {
      img.pure-img-responsive.logo-footer{
@@ -356,7 +381,10 @@ ul.pure-menu-list li.pure-menu-item ul.pure-menu-children li.menu-sub ul li a{
 }
 
 /* -----------------------------------------Larger than tablet -----------------------------------------*/
-@media (min-width: 950px) {
+@media (min-width: 1000px) {
+    .menu-register{
+        text-align: right;
+    }
     li.pure-menu-item.menu-sub ul{
         margin-left: 0;
     }
@@ -535,10 +563,7 @@ ul.pure-menu-list li.pure-menu-item ul.pure-menu-children li.menu-sub ul li a{
         top: -42px;
     }
     
-    .content.splash-content {
-        padding-top: 7em;
-        
-    }
+   
     .splash-content h1 {
         line-height: 42px;
         font-size: 42px;
@@ -755,11 +780,7 @@ ul.pure-menu-list li.pure-menu-item ul.pure-menu-children li.menu-sub ul li a{
     }
     
    
-    .content.splash-content {
-        padding-top: 12em;
         
-    }
-     
     .pure-g.box-how-learn {
        padding: 0px 90px 0 90px;
     }

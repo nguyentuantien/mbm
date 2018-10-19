@@ -1,3 +1,26 @@
+.background-white {
+  background-color: #fff;
+}
+
+.content-mbm h2 {
+  font-family: 'UniSansThin', sans-serif;
+}
+
+ul {
+  padding-left: 0;
+}
+ul li {
+  font-family: 'UniSansThin', sans-serif;
+}
+
+.count {
+  font-family: 'UniSansHeavy', sans-serif;
+}
+
+label {
+  font-family: 'UniSansThin', sans-serif;
+}
+
 #splash-banner {
   background-image: url(../img/banner.png);
   background-repeat: no-repeat;
@@ -13,6 +36,36 @@
   color: #fff;
 }
 
+.text-blue {
+  color: #1b67a5;
+}
+
+.background-blue {
+  background-color: #1b67a5;
+}
+
+.background-grey {
+  background-color: #efeef4;
+}
+
+.button-register {
+  padding: 5px 20px;
+  margin-right: 5px;
+  border-color: #1b67a5;
+}
+
+.button-register:hover {
+  background-color: #08487c;
+}
+
+.btn-contact {
+  border-color: #1b67a5;
+}
+
+.btn-contact:hover {
+  background-color: #eee;
+}
+
 ul.list li {
   display: inline-block;
   list-style: none;
@@ -20,6 +73,116 @@ ul.list li {
 }
 ul.list li a i {
   color: #fff;
+}
+
+ul li {
+  list-style: none;
+}
+
+/*Menu*/
+.pure-menu-list li a {
+  font-weight: bold;
+}
+
+.author-vb h2 {
+  margin-bottom: -6px;
+}
+
+.content-training img {
+  width: 80px;
+}
+.content-training h3 {
+  text-transform: uppercase;
+  line-height: 21pt;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: #1b67a5;
+  color: #fff;
+  padding: 10px 40px;
+  font-size: 16pt;
+}
+
+.button:hover {
+  background-color: #08487c;
+}
+
+.background-one {
+  background-color: #efeef4;
+}
+
+.banner-two {
+  background-image: url(../img/banner2.png);
+  background-size: cover;
+}
+
+.count {
+  font-size: 50pt;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.detail-count {
+  font-size: 18pt;
+}
+
+.padding-bottom-30 {
+  padding-bottom: 30px;
+}
+
+iframe#video {
+  width: 100%;
+}
+
+.content-register h2 {
+  margin-bottom: 0;
+}
+.content-register .text-thin {
+  font-family: 'UniSansThin', sans-serif;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.text-red {
+  color: red;
+}
+
+footer {
+  background-color: #1b67a5;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.back-two {
+  color: #504d4d;
+  font-family: 'UniSansThin', sans-serif;
+}
+
+.author {
+  width: 100%;
+}
+
+@media (min-width: 450px) {
+  .author {
+    width: 340px;
+  }
+}
+@media (min-width: 751px) {
+  .count {
+    margin-top: 45px;
+  }
+
+  iframe#video {
+    width: 60%;
+  }
 }
 
 /*# sourceMappingURL=mbm.css.map */
